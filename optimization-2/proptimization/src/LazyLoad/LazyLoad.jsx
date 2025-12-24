@@ -1,0 +1,46 @@
+
+ import React from "react";
+function LazyLoad() {
+  return (
+    <div
+      style={{
+        padding: "20px",
+        backgroundColor: "#f9f9f9",
+        lineHeight: "1.7",
+        fontFamily: "Arial, sans-serif",
+      }}
+    >
+      <h3
+        style={{
+          color: "#333",
+          fontSize: "16px",
+          fontWeight: "400",
+          textAlign: "justify",
+        }}
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets
+        containing Lorem Ipsum passages, and more recently with desktop publishing
+        software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        <br /><br />
+
+        <span style={{ fontWeight: "600", color: "#000" }}>
+          Why do we use it?
+        </span>
+
+        <br /><br />
+
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of using
+        Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+      </h3>
+    </div>
+  );
+}
+
+export default LazyLoad;
